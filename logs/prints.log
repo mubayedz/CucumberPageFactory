@@ -1,0 +1,50 @@
+01:39:38.917 [main] INFO  com.qa.utils.SeleniumDrivers - Opening the url
+01:39:42.993 [main] INFO  com.qa.utils.SeleniumDrivers - Hover over the menu
+01:39:44.439 [main] INFO  com.qa.utils.SeleniumDrivers - Click on used cars menu
+01:39:49.468 [main] INFO  com.qa.utils.SeleniumDrivers - Select car brand
+01:39:49.844 [main] INFO  com.qa.utils.SeleniumDrivers - Select car model
+01:39:53.531 [main] INFO  com.qa.utils.SeleniumDrivers - Select car location
+01:39:53.717 [main] INFO  com.qa.utils.SeleniumDrivers - Select a price from dropdown
+01:39:53.931 [main] INFO  com.qa.utils.SeleniumDrivers - Click find my nextcar
+01:39:57.818 [main] INFO  com.qa.utils.SeleniumDrivers - Used cards list found
+01:39:58.263 [main] INFO  com.qa.utils.SeleniumDrivers - The title matched with the page successfully
+01:50:18.216 [main] INFO  com.qa.utils.SeleniumDrivers - Opening the url
+01:50:23.563 [main] INFO  com.qa.utils.SeleniumDrivers - Hover over the menu
+01:50:23.752 [main] INFO  com.qa.utils.SeleniumDrivers - Click on used cars menu
+01:50:25.134 [main] INFO  com.qa.utils.SeleniumDrivers - Select car brand
+01:50:32.927 [main] INFO  com.qa.utils.SeleniumDrivers - Select car model
+01:50:34.439 [main] INFO  com.qa.utils.SeleniumDrivers - Select car location
+01:50:34.605 [main] INFO  com.qa.utils.SeleniumDrivers - Select a price from dropdown
+01:50:34.766 [main] INFO  com.qa.utils.SeleniumDrivers - Click find my nextcar
+01:50:44.146 [main] INFO  com.qa.utils.SeleniumDrivers - Used cards list found
+01:50:46.716 [main] INFO  com.qa.utils.SeleniumDrivers - The title matched with the page successfully
+02:03:31.465 [main] INFO  com.qa.utils.SeleniumDrivers - Opening the url
+02:03:36.159 [main] INFO  com.qa.utils.SeleniumDrivers - Hover over the menu
+02:03:40.642 [main] INFO  com.qa.utils.SeleniumDrivers - Click on used cars menu
+02:03:43.491 [main] INFO  com.qa.utils.SeleniumDrivers - Select car brand
+02:03:47.004 [main] INFO  com.qa.utils.SeleniumDrivers - Select car model
+02:03:47.430 [main] INFO  com.qa.utils.SeleniumDrivers - Select car location
+02:03:48.791 [main] INFO  com.qa.utils.SeleniumDrivers - Select a price from dropdown
+02:03:49.018 [main] INFO  com.qa.utils.SeleniumDrivers - Click find my nextcar
+02:04:02.618 [main] INFO  com.qa.utils.SeleniumDrivers - Used cards list found
+02:04:02.693 [main] INFO  com.qa.utils.SeleniumDrivers - The title matched with the page successfully
+02:09:32.261 [main] INFO  com.qa.utils.SeleniumDrivers - Opening the url
+02:09:38.893 [main] INFO  com.qa.utils.SeleniumDrivers - Hover over the menu
+02:09:41.336 [main] INFO  com.qa.utils.SeleniumDrivers - Click on used cars menu
+02:09:47.731 [main] INFO  com.qa.utils.SeleniumDrivers - Select car brand
+02:09:47.998 [main] INFO  com.qa.utils.SeleniumDrivers - Select car model
+02:09:48.361 [main] INFO  com.qa.utils.SeleniumDrivers - Select car location
+02:09:48.677 [main] INFO  com.qa.utils.SeleniumDrivers - Select a price from dropdown
+02:09:48.952 [main] INFO  com.qa.utils.SeleniumDrivers - Click find my nextcar
+02:09:50.270 [main] INFO  com.qa.utils.SeleniumDrivers - Used cards list found
+02:09:50.332 [main] INFO  com.qa.utils.SeleniumDrivers - The title matched with the page successfully
+02:15:14.500 [main] INFO  com.qa.utils.SeleniumDrivers - Opening the url
+02:15:19.113 [main] INFO  com.qa.utils.SeleniumDrivers - Hover over the menu
+02:15:21.763 [main] INFO  com.qa.utils.SeleniumDrivers - Click on used cars menu
+02:15:23.919 [main] INFO  com.qa.utils.SeleniumDrivers - Select car brand
+02:15:28.594 [main] INFO  com.qa.utils.SeleniumDrivers - Select car model
+02:15:30.457 [main] INFO  com.qa.utils.SeleniumDrivers - Select car location
+02:15:30.718 [main] INFO  com.qa.utils.SeleniumDrivers - Select a price from dropdown
+02:15:30.964 [main] INFO  com.qa.utils.SeleniumDrivers - Click find my nextcar
+02:15:36.208 [main] INFO  com.qa.utils.SeleniumDrivers - Used cards list found
+02:15:36.934 [main] INFO  com.qa.utils.SeleniumDrivers - The title matched with the page successfully

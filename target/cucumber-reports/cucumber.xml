@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="70.222808">
+    <testcase classname="Acceptance testing to validate Search page is working fine." name="Validate search cars page" time="35.726272">
+        <system-out><![CDATA[Given I am on the home page "https://www.carsguide.com.au" of Carsguide.....passed
+When I move to the menu.....................................................passed
+And click on "Search Cars" link.............................................passed
+And Select carbrand as "BMW" from Anymake dropdown..........................passed
+And Select Any Model dropdown as "1 Series".................................passed
+And Select Any Location dropdown as "NSW - New England".....................passed
+And Select Any Price (max) dropdown as "$45,000"............................passed
+And Click on "Find My Next Car" button......................................passed
+Then I should see list of searched cars.....................................passed
+And the page title should be "Bmw 1 Series Under 45000 for Sale New England NSW | carsguide".passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Acceptance testing to validate Used Search cars page is working fine." name="Validate used search cars page" time="34.496536">
+        <system-out><![CDATA[Given I'm on the home page "https://www.carsguide.com.au" of Carsguide......passed
+When I hover over the menu..................................................passed
+And click on the "Used" link................................................passed
+And Select car brand as "Ford" from Anymake dropdown........................passed
+And Select Any_Model dropdown as "Mustang"..................................passed
+And Select Any_Location dropdown as "WA - All"..............................passed
+And Select Any_Price (max)..................................................passed
+And Click on "Find My Next Car" blue button.................................passed
+Then I should see a list of used cars.......................................passed
+And the page titles should be "Used Ford Mustang Under 200000 for Sale WA | carsguide".passed
+]]></system-out>
+    </testcase>
+</testsuite>

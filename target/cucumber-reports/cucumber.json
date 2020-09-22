@@ -1,0 +1,500 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2020-09-22T00:14:32.132Z",
+        "before": [
+          {
+            "result": {
+              "duration": 12975590400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BeforeActions.setUp()"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "Validate search cars page",
+        "description": "",
+        "id": "acceptance-testing-to-validate-search-page-is-working-fine.;validate-search-cars-page",
+        "after": [
+          {
+            "result": {
+              "duration": 5064660500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AfterActions.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9347095800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I am on the home page \"https://www.carsguide.com.au\" of Carsguide",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://www.carsguide.com.au",
+                  "offset": 23
+                }
+              ],
+              "location": "SearchCarsSteps.i_am_on_the_home_page_of_Carsguide(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 963771100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I move to the menu",
+            "match": {
+              "location": "SearchCarsSteps.i_move_to_the_menu(String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Menu"
+                ]
+              },
+              {
+                "cells": [
+                  "buy + sell"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5068997000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "click on \"Search Cars\" link",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Search Cars",
+                  "offset": 10
+                }
+              ],
+              "location": "SearchCarsSteps.click_on_link(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 414068500,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Select carbrand as \"BMW\" from Anymake dropdown",
+            "match": {
+              "arguments": [
+                {
+                  "val": "BMW",
+                  "offset": 20
+                }
+              ],
+              "location": "SearchCarsSteps.select_carbrand_as_from_Anymake_dropdown(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 540909100,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Select Any Model dropdown as \"1 Series\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1 Series",
+                  "offset": 30
+                }
+              ],
+              "location": "SearchCarsSteps.select_Any_Model_dropdown_as(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 457274400,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Select Any Location dropdown as \"NSW - New England\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "NSW - New England",
+                  "offset": 33
+                }
+              ],
+              "location": "SearchCarsSteps.select_Any_Location_dropdown_as(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 342191200,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Select Any Price (max) dropdown as \"$45,000\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "$45,000",
+                  "offset": 36
+                }
+              ],
+              "location": "SearchCarsSteps.select_Any_Price_max_dropdown_as(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 397295500,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Click on \"Find My Next Car\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Find My Next Car",
+                  "offset": 10
+                }
+              ],
+              "location": "SearchCarsSteps.click_on_button(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4379400,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I should see list of searched cars",
+            "match": {
+              "location": "SearchCarsSteps.i_should_see_list_of_searched_cars()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 78450500,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "the page title should be \"Bmw 1 Series Under 45000 for Sale New England NSW | carsguide\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Bmw 1 Series Under 45000 for Sale New England NSW | carsguide",
+                  "offset": 26
+                }
+              ],
+              "location": "SearchCarsSteps.the_page_title_should_be(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Search-Cars"
+          },
+          {
+            "name": "@Search-Cars-Positive"
+          }
+        ]
+      }
+    ],
+    "name": "Acceptance testing to validate Search page is working fine.",
+    "description": "\tIn order to validate that\nthe search cars page is working fine\nwe will do the acceptance testing",
+    "id": "acceptance-testing-to-validate-search-page-is-working-fine.",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/SearchCars.feature",
+    "tags": [
+      {
+        "name": "@Search-Cars",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2020-09-22T00:15:07.894Z",
+        "before": [
+          {
+            "result": {
+              "duration": 6574630300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BeforeActions.setUp()"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "Validate used search cars page",
+        "description": "",
+        "id": "acceptance-testing-to-validate-used-search-cars-page-is-working-fine.;validate-used-search-cars-page",
+        "after": [
+          {
+            "result": {
+              "duration": 5454478500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AfterActions.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4633568300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I\u0027m on the home page \"https://www.carsguide.com.au\" of Carsguide",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://www.carsguide.com.au",
+                  "offset": 22
+                }
+              ],
+              "location": "UsedCarsSearchSteps.i_m_on_the_home_page_of_Carsguide(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2649317100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I hover over the menu",
+            "match": {
+              "location": "UsedCarsSearchSteps.i_hover_over_the_menu(String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Menu"
+                ]
+              },
+              {
+                "cells": [
+                  "buy + sell"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2156559200,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "click on the \"Used\" link",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Used",
+                  "offset": 14
+                }
+              ],
+              "location": "UsedCarsSearchSteps.click_on_the_link(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4673854200,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Select car brand as \"Ford\" from Anymake dropdown",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Ford",
+                  "offset": 21
+                }
+              ],
+              "location": "UsedCarsSearchSteps.select_car_brand_as_from_Anymake_dropdown(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1863292100,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Select Any_Model dropdown as \"Mustang\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Mustang",
+                  "offset": 30
+                }
+              ],
+              "location": "UsedCarsSearchSteps.select_Any_Model_dropdown_as(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 260360200,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Select Any_Location dropdown as \"WA - All\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "WA - All",
+                  "offset": 33
+                }
+              ],
+              "location": "UsedCarsSearchSteps.select_Any_Location_dropdown_as(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 246631200,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Select Any_Price (max)",
+            "match": {
+              "location": "UsedCarsSearchSteps.select_Any_Price_max(String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Price"
+                ]
+              },
+              {
+                "cells": [
+                  "$200,000"
+                ]
+              },
+              {
+                "cells": [
+                  "$55.000"
+                ]
+              },
+              {
+                "cells": [
+                  "$25.000"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5243504100,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "Click on \"Find My Next Car\" blue button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Find My Next Car",
+                  "offset": 10
+                }
+              ],
+              "location": "UsedCarsSearchSteps.click_on_blue_button(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 689300,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I should see a list of used cars",
+            "match": {
+              "location": "UsedCarsSearchSteps.i_should_see_a_list_of_used_cars()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 726407100,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "the page titles should be \"Used Ford Mustang Under 200000 for Sale WA | carsguide\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Used Ford Mustang Under 200000 for Sale WA | carsguide",
+                  "offset": 27
+                }
+              ],
+              "location": "UsedCarsSearchSteps.the_page_titles_should_be(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Used-Search-Cars"
+          },
+          {
+            "name": "@Used-Search-Cars-Positive"
+          }
+        ]
+      }
+    ],
+    "name": "Acceptance testing to validate Used Search cars page is working fine.",
+    "description": "\tIn order to validate that\nthe search cars page is working fine\nwe will do the acceptance testing",
+    "id": "acceptance-testing-to-validate-used-search-cars-page-is-working-fine.",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/UsedCarsSearch.feature",
+    "tags": [
+      {
+        "name": "@Used-Search-Cars",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,7 @@
+com\qa\pages\actions\UsedCarsSearchPageActions.class
+com\qa\pages\actions\CarsGuideHomePageActions.class
+com\qa\pages\locators\CarSearchPageLocators.class
+com\qa\pages\actions\CarSearchPageActions.class
+com\qa\pages\locators\CarsGuideHomePageLocators.class
+com\qa\pages\locators\UsedCarsSearchPageLocators.class
+com\qa\utils\SeleniumDrivers.class
